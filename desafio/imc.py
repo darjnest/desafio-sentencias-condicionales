@@ -14,6 +14,31 @@ def calcular_imc(peso,altura):
     return imc
 
 
+def clasificar_imc(imc):
+    """
+    Clasifica el IMC según las categorías de la OMS.
+
+    Parámetros:
+    imc (float): El valor del IMC calculado.
+
+    Retorna:
+    str: La clasificación del IMC según la OMS.
+    """
+
+    if imc < 18.5:
+        return "Bajo Peso"
+    elif 18.5 <= imc < 25:
+        return "Adecuado"
+    elif 25 <= imc < 30:
+        return "Sobrepeso"
+    elif 30 <= imc < 35:
+        return "Obesidad Grado I"
+    elif 35 <= imc < 40:
+        return "Obesidad Grado II"
+    else:
+        return "Obesidad Grado III"
+
+
 
 
 
