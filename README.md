@@ -1,53 +1,43 @@
 # desafio-sentencias-condicionales
+# Actividades de Programación
+
 Este repositorio contiene dos actividades desarrolladas en Python: el cálculo del Índice de Masa Corporal (IMC) y un juego de Cachipún (Piedra, Papel, Tijera) contra la computadora. Estas actividades están diseñadas para mejorar la comprensión y aplicación de conceptos de programación.
 
-Contenido
+## Contenido
 
-Actividad 1 - IMC
-Actividad 2 - Cachipún
-Instrucciones de Instalación
-Uso
-Contribuciones
-Licencia
-Actividad 1 - IMC
+- [Actividad 1 - IMC](#actividad-1---imc)
+- [Actividad 2 - Cachipún](#actividad-2---cachipún)
+- [Instrucciones de Instalación](#instrucciones-de-instalación)
+- [Uso](#uso)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+
+## Actividad 1 - IMC
 
 El Índice de Masa Corporal (IMC) es una medida utilizada para determinar el estado nutricional de una persona, basada en su peso y altura. El IMC se calcula de la siguiente manera:
 
-I
-M
-C
-=
-W
-H
-2
-IMC= 
-H 
-2
- 
-W
-​	
- 
+\[ IMC = \frac{W}{H^2} \]
 
 Donde:
+- \( W \) es el peso de la persona en kilogramos.
+- \( H \) es la altura de la persona en metros.
 
-W
-W es el peso de la persona en kilogramos.
-H
-H es la altura de la persona en metros.
 La Organización Mundial de la Salud (OMS) clasifica los valores del IMC en varias categorías:
 
-IMC	Clasificación
-< 18.5	Bajo Peso
-18.5 - 24.9	Adecuado
-25 - 29.9	Sobrepeso
-30 - 34.9	Obesidad Grado I
-35 - 39.9	Obesidad Grado II
-> 40	Obesidad Grado III
-Ejecución del Programa
+| IMC         | Clasificación         |
+|-------------|-----------------------|
+| < 18.5      | Bajo Peso             |
+| 18.5 - 24.9 | Adecuado              |
+| 25 - 29.9   | Sobrepeso             |
+| 30 - 34.9   | Obesidad Grado I      |
+| 35 - 39.9   | Obesidad Grado II     |
+| > 40        | Obesidad Grado III    |
+
+### Ejecución del Programa
+
 Para ejecutar el programa de cálculo del IMC, utilice el siguiente comando en la terminal:
 
-bash
-Copiar código
+```bash
 python imc.py
 Actividad 2 - Cachipún
 
